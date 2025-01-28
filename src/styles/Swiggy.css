@@ -1,0 +1,85 @@
+.header-nav {
+    display : flex;
+    justify-content:  space-around;
+    border : 1px solid black;
+}
+
+.header-nav ul  {
+    display: flex;
+    justify-content:  space-between;
+}
+
+.header-nav ul li {
+    margin : 20px;
+    list-style-type: none;
+}
+
+.footer {
+    position: relative;
+    bottom : 2px;
+    display : flex;
+    justify-content:  space-around;
+    border : 1px solid black;
+    width : 100%; 
+    margin-bottom : 0px;
+}
+
+.priceData span{
+    margin : 5px; 
+}
+
+.location-cuisine  span{
+   margin : 5px;
+}
+
+
+.restaurantCard {
+    position : relative;
+    margin : 5px;
+}
+
+.restaurantCard img {
+    border-radius : 10px;
+}
+
+.restaurantCard img:hover{
+    cursor: pointer;
+    transform:  scale(0.9);
+    transition : linear 0.2;
+}
+.offerLine {
+    position : absolute;
+    top : 170px; 
+    left : 90px;
+    color: white;
+}
+
+.restaurantContainer {
+    display : grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    width  : 70%;
+    margin : auto;
+    /* margin-right: 40px; */
+    margin-bottom : 20px;
+    place-items: center;
+}
+
+.Swiggy{
+    margin : 10px;
+}
+
+.loginform div {
+    display : flex;
+    justify-content:  space-evenly;
+    margin : 10px;
+}
+
+.search input{
+    margin-right : 5px;
+    margin-bottom : 20px;
+}
+
+.search{
+    text-align : center;
+    margin : 30px;
+}

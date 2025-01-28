@@ -3,11 +3,13 @@ import {useState}  from  'react';
 function Buttonstate(){
     const  [count,setCount] = useState(0);
     
-    function submitButton(){
-        setCount(count+1);
-    }
+    // function submitButton(){
+    //     setCount(count+1);
+    // }
     return (
-        <button onClick={submitButton}> {count} times Clicked</button>
+        <button onClick={
+            // submitButton
+            (e)=> setCount(count+1)}> {count} times Clicked</button>
     )
 }
 
